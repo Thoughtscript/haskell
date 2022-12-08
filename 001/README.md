@@ -1,8 +1,8 @@
 # 001
 
 ```Haskell
-ghc Basics.hs
-runhaskell Basics.hs
+ghc IO_Test.hs
+runhaskell IO_Test.hs
 ```
 
 The examples on: http://learnyouahaskell.com/input-and-output seem incorrect partially?
@@ -24,8 +24,8 @@ Hey d, you rock!
 Thanks to: https://stackoverflow.com/questions/44055971/why-does-a-haskell-script-using-putstrln-hang. Looks like one can use: 
 
 ```Haskell
-ghci Basics.hs
+ghci IO_Test.hs
 ghci> main
 ```
 
-To generate the correct output sequence. Stack Overflow answers suggests its a terminal buffer issue (or something related to how the terminal handles outputs)?
+To generate the correct output sequence. Stack Overflow answers suggests it's a terminal buffer issue (or something related to how the terminal handles outputs)?
